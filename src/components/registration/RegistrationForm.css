@@ -1,0 +1,18 @@
+.registration_field{
+    margin-top: 100px;
+
+}
+.reg_name{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+.reg_button{
+
+    width:500px;
+    background-color: #F95368 !important;
+    color: white !important;
+}
+.form_container{
+    height: 60vh;
+}

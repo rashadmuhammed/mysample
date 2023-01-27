@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+.navbar_container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #fff;
+   box-shadow:1px 1px 20px grey
+
+}
+
+.main_nav_logo{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 5%;
+
+}
+.navbar_link ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+}
+.nav_reg_button{
+    display: inline-block;
+  padding: 5px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #de373a ;
+  border: none;
+  position: relative;
+  right: 30px;
+ 
+ 
+}
+.list{
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: #de373a;
+    background-color: grey;
+    border-radius: 35px;
+    text-decoration: none;
+
+   
+
+}

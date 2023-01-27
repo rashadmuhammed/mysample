@@ -1,0 +1,11 @@
+.regd-container{
+    height: calc(100% - 50px);
+
+}
+.container_row{
+    height: 100%;
+}
+
+.container_right_column{
+    overflow: scroll;
+}

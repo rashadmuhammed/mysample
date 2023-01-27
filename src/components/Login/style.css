@@ -1,0 +1,102 @@
+.home_container {
+  height: calc(100% - 50px);
+}
+
+.left-container {
+  background-image: url(../../assets/homebackground.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-inner-container{
+  width: 80%;
+    height: 25%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+}
+.left-inner-container h1{
+  box-shadow: 2px 2px 1px green;
+}
+
+.home-background{
+  width: 100%;
+}
+
+
+/*neeed to change*/
+.Login_container {
+  background-color: #fff;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  margin-top: 20px;
+}
+.login_heading {
+  margin-top: -200px;
+}
+.input_email {
+  display: flex;
+  flex-direction: column;
+  border-color: gray;
+  margin-bottom: 10px;
+}
+.input_email label {
+  margin-bottom: 10px;
+  color: grey;
+}
+#login_email {
+  width: 300px;
+  padding: 10px, 20px;
+  border-radius: 2px;
+  padding: 10px;
+  border: 3px solid #ccc;
+}
+
+.input_password {
+  display: flex;
+  flex-direction: column;
+}
+#login_password {
+  width: 300px;
+  padding: 10px, 20px;
+  border-radius: 2px;
+  padding: 10px;
+  border: 3px solid #ccc;
+}
+.input_password label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: grey;
+}
+p {
+  color: red;
+  margin-left: 200px;
+}
+.login_botton {
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #de373a;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  right: 5px;
+  width: 300px;
+  height: 40px;
+} 

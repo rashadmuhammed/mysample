@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135" height="135" viewBox="0 0 135 135">
+  <defs>
+    <filter id="Rectangle_60" x="0" y="0" width="135" height="135" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#75c2e1" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_20" data-name="Group 20" transform="translate(-3540 -3227)">
+    <g transform="matrix(1, 0, 0, 1, 3540, 3227)" filter="url(#Rectangle_60)">
+      <path id="Rectangle_60-2" data-name="Rectangle 60" d="M0,0H105a0,0,0,0,1,0,0V54a51,51,0,0,1-51,51H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(15 13)" fill="#fff"/>
+    </g>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(3568.793 3249.928)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(1)">
+        <rect id="Rectangle_61" data-name="Rectangle 61" width="42.486" height="68.686" rx="10" transform="translate(32.927)" fill="#f2f2f2"/>
+        <circle id="Ellipse_11" data-name="Ellipse 11" cx="12.066" cy="12.066" r="12.066" transform="translate(20.832 6.55)" fill="#7fc9d6"/>
+        <path id="Path_15" data-name="Path 15" d="M38.15,25.372l3.5,3.505,9.637-9.637" transform="translate(-11.844 -5.616)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <circle id="Ellipse_12" data-name="Ellipse 12" cx="5.197" cy="5.197" r="5.197" transform="translate(50.219 38.237)" fill="none" stroke="#000" stroke-width="2"/>
+        <path id="Path_16" data-name="Path 16" d="M85.569,83.444H64a10.784,10.784,0,1,1,21.569,0Z" transform="translate(-19.39 -21.209)" fill="none" stroke="#000" stroke-width="2"/>
+        <circle id="Ellipse_13" data-name="Ellipse 13" cx="5.197" cy="5.197" r="5.197" transform="translate(5.608 38.237)" fill="none" stroke="#000" stroke-width="2"/>
+        <path id="Path_17" data-name="Path 17" d="M22.569,83.444H1a10.784,10.784,0,1,1,21.569,0Z" transform="translate(-1 -21.209)" fill="none" stroke="#000" stroke-width="2"/>
+        <line id="Line_11" data-name="Line 11" x2="21.101" transform="translate(22.447 46.515)" fill="none" stroke="#f95368" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
